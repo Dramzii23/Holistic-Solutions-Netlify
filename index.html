@@ -1,0 +1,782 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dramzii - Holistic Design Solutions</title>
+    <link rel="icon" href="images/Brand & Logo/emoticondownload.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/style2.css">
+    <!-- Firebase App is always required and must be first -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+    <!-- Add Firestore -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-firestore.js"></script>
+</head>
+
+<body>
+    <!-- <div id="bgVideo" class="col-12">
+         <div class="gradient-edge left-edge"></div>
+         <div class="gradient-edge right-edge"></div>
+         <div class="gradient-edge bottom-edge"></div>
+         
+             <iframe
+                 src="https://www.youtube.com/embed/1f-Xrxh6ZYY?si=alj6SblizEDI-fMW&amp;controls=0&amp;autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=1f-Xrxh6ZYY&amp;vq=hd1080"
+                 title="YouTube video player" frameborder="0"
+                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                 allowfullscreen="" autoplay="true">
+             </iframe> -->
+    <header>
+        <div class="container-fluid m-0 p-0">
+            <div class="row  position-relative">
+                <div class="col-12">
+                    <div class="container bg-dark position-absolute position-absolute z-3 start-0 end-0 pt-3 ">
+                        <nav class="navbar navbar-expand-lg bg-body-tertiary rounded"
+                            aria-label="Eleventh navbar example">
+                            <div class="container-fluid">
+                                <a class="navbar-brand" href="#">
+                                    <!-- <img class="bg-light" src="images/logo/logo dramzii [Converted].svg" alt="Logo DramZII" height="50"> -->
+                                    <svg id="logo-svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 504.01 90.97">
+                                        <defs>
+                                            <style>
+                                                .cls-1 {
+                                                    fill-rule: evenodd;
+                                                }
+
+                                                #logo-svg {
+                                                    fill: #f8f9fa;
+                                                    display: block;
+                                                    height: 1.4em;
+                                                }
+                                            </style>
+                                        </defs>
+                                        <path
+                                            d="M33.66,307.18H68.41q24.59,0,39.38-12.32t14.8-32.78q0-20.38-14.35-32.85T70.38,216.77H33.66Zm31.88-73.33a57.31,57.31,0,0,1,16,2.44,22,22,0,0,1,12.83,9.3,28.36,28.36,0,0,1,4.43,15.73q0,15.29-9.18,21.83T66.2,289.69H57V233.85Z"
+                                            transform="translate(-33.66 -216.53)" />
+                                        <path class="cls-1"
+                                            d="M209.33,303.85c12.83-26.92,41.95-87.32,41.95-87.32h18.07s8.59,18.22,18.51,38.18c22.4,45,35.12,37,35.12,37s7.8,3.75,7.56,15.76c-40.56,0-54.49-26.17-70.22-61.14-3.85,7.93-23.86,52.13-28.3,61.15C227.57,307.46,212,305.54,209.33,303.85Z"
+                                            transform="translate(-33.66 -216.53)" />
+                                        <path
+                                            d="M330.61,307.31c0-18.62-.1-59.12-.1-64.4,15.05,33,26.47,38.32,36.35,45.57.44-.88,27.71-53,27.71-53l62.71-.55-4-18.12-46.1-.32H380.47s-17.56,33.68-18.79,35.61c-11.43-12.74-21.11-35.61-21.11-35.61H312.19s0,60.65,0,87.45"
+                                            transform="translate(-33.66 -216.53)" />
+                                        <path
+                                            d="M393.29,235.23H436l-49.11,72.22H502.19V288.62H422.93l48.83-72.09H393.29Z"
+                                            transform="translate(-33.66 -216.53)" />
+                                        <path d="M478.87,307.45H502.2V216.53H478.87Z"
+                                            transform="translate(-33.66 -216.53)" />
+                                        <path d="M514.34,307.45h23.32V216.53H514.34Z"
+                                            transform="translate(-33.66 -216.53)" />
+                                        <path class="cls-1"
+                                            d="M233.29,303.69S195.6,281,196.62,269.55q11.64-4.29,16-11.84a29.19,29.19,0,0,0,4.34-14.53q0-12.26-9.45-19.45t-25.71-7.2h-47v90.92h23.33V272.27l.16-15.85V232.73H175q8.44,0,13.19,3t4.76,8.13c0,12.2-10.81,12.29-23.68,12.29,0,25.76,26,51.33,62.6,51.33A22.56,22.56,0,0,0,233.29,303.69Z"
+                                            transform="translate(-33.66 -216.53)" />
+                                    </svg>
+                                </a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarsExample09" aria-controls="navbarsExample09"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarsExample09">
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#">Acerca de</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">CV</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-disabled="true">Portafolio</a>
+                                        </li>
+                                        <!-- <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                        aria-expanded="false">Dropdown</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                    </li> -->
+                                    </ul>
+                                    <form role="search">
+                                        <input class="form-control" type="search" placeholder="Search"
+                                            aria-label="Search">
+                                    </form>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <!-- Carrousel starts -->
+                    <div id="carouselExampleCaptions"
+                        class="banner carousel slide h-300 py-5 pointer-event pt-5 bg-dark bg-opacity-75 ">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-label="Slide 1" aria-current="true"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2" class=""></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <!-- Contenido Slider -->
+                                <div class="container my-5 pt-4">
+                                    <div
+                                        class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+                                        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                                            <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Aprende y Crece con
+                                                Nosotros
+                                            </h1>
+                                            <p class="lead">Sumérgete en el emocionante mundo del diseño gráfico y
+                                                desarrollo web con nuestras clases en línea. Desde cursos básicos hasta
+                                                avanzados, ofrecemos una amplia variedad de clases diseñadas para
+                                                ayudarte a
+                                                adquirir las habilidades que necesitas para tener éxito en la industria.
+                                            </p>
+                                            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                                                <button type="button"
+                                                    class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
+                                                <button type="button"
+                                                    class="btn btn-outline-secondary btn-lg px-4">Default</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                                            <img class="rounded-lg-3"
+                                                src="https://images.unsplash.com/photo-1585637071663-799845ad5212?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                                alt="" width="720">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <img src="..." class="d-block w-100" alt="..." style="height: 850px;"> -->
+                            <!-- <div class="carousel-caption d-none d-md-block">
+                           <h5>First slide label</h5>
+                           <p>Some representative placeholder content for the first slide.</p>
+                           </div> -->
+                            <div class="carousel-item">
+                                <div class="container my-5 pt-4">
+                                    <div
+                                        class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+                                        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                                            <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Creatividad Ilimitada
+                                            </h1>
+                                            <p class="lead">Explora el mundo del diseño gráfico y da vida a tus ideas
+                                                con
+                                                nuestra creatividad sin límites. Desde la creación de logotipos hasta el
+                                                diseño de materiales de marketing, estamos aquí para ayudarte a
+                                                destacar.
+                                            </p>
+                                            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                                                <button type="button"
+                                                    class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
+                                                <button type="button"
+                                                    class="btn btn-outline-secondary btn-lg px-4">Default</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                                            <img class="rounded-lg-3"
+                                                src="https://images.unsplash.com/photo-1626785774573-4b799315345d?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                                alt="" width="720">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="container my-5 pt-4">
+                                    <div
+                                        class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+                                        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                                            <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Construye tu Presencia
+                                                Digital
+                                            </h1>
+                                            <p class="lead">Lleva tu negocio al siguiente nivel con un sitio web
+                                                profesional
+                                                y funcional diseñado para destacar en línea. Desde sitios web responsive
+                                                hasta tiendas en línea, nuestro equipo está comprometido en ayudarte a
+                                                construir una presencia digital sólida y efectiva.
+                                            </p>
+                                            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                                                <button type="button"
+                                                    class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
+                                                <button type="button"
+                                                    class="btn btn-outline-secondary btn-lg px-4">Default</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                                            <!-- <img class="rounded-lg-3"
+                                       src="https://getbootstrap.com/docs/5.3/examples/heroes/bootstrap-docs.png"
+                                       alt="" width="720"> -->
+                                            <img class="rounded-lg-3"
+                                                src="https://images.unsplash.com/photo-1565106430482-8f6e74349ca1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                                alt="" width="720">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <!-- Carrousel ends -->
+                </div>
+            </div>
+            <!-- navbar start -->
+            <!-- <div class="container bg-dark">
+               <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Eleventh navbar example">
+                   <div class="container-fluid">
+                       <a class="navbar-brand" href="#">Navbar</a>
+                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                           data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false"
+                           aria-label="Toggle navigation">
+                           <span class="navbar-toggler-icon"></span>
+                       </button>
+               
+                       <div class="collapse navbar-collapse" id="navbarsExample09">
+                           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                               <li class="nav-item">
+                                   <a class="nav-link active" aria-current="page" href="#">Home</a>
+                               </li>
+                               <li class="nav-item">
+                                   <a class="nav-link" href="#">Link</a>
+                               </li>
+                               <li class="nav-item">
+                                   <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                               </li>
+                               <li class="nav-item dropdown">
+                                   <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                       aria-expanded="false">Dropdown</a>
+                                   <ul class="dropdown-menu">
+                                       <li><a class="dropdown-item" href="#">Action</a></li>
+                                       <li><a class="dropdown-item" href="#">Another action</a></li>
+                                       <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                   </ul>
+                               </li>
+                           </ul>
+                           <form role="search">
+                               <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                           </form>
+                       </div>
+                   </div>
+               </nav>
+               </div> -->
+            <!-- navbar end -->
+        </div>
+    </header>
+    <!-- banner start -->
+    <section class="banner py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <h1 class="main-title">Holistic Digital Solutions - Quiénes Somos</h1>
+                    <p class="subtitle my-5">En Holistic Digital Solutions, nos dedicamos a proporcionar soluciones
+                        digitales integrales para ayudar a nuestros clientes a alcanzar sus objetivos en línea. Con
+                        un enfoque holístico en el diseño, desarrollo y estrategia digital, nuestro equipo de
+                        expertos trabaja incansablemente para brindar resultados excepcionales y satisfacer las
+                        necesidades únicas de cada cliente. Desde la creación de sitios web atractivos hasta la
+                        implementación de estrategias de marketing digital efectivas, estamos comprometidos en ser
+                        tu socio de confianza en el mundo digital.
+                    </p>
+                    <!-- <a class="main-btn shadow mt-4" href="">Read More</a> -->
+                    <a><button type="button"
+                            class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Contáctanos</button></a>
+                    <a href="https://wa.me/1234567890" target="_blank" class="whatsapp-icon">
+                        <img src="images/whatsapp-icon.png" alt="WhatsApp Icon">
+                    </a>
+                </div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-5">
+                    <img src="images/Brand & Logo/2023-12-22 17_37_41-Clipboard.png" class="rounded wow bounceInUp"
+                        data-wow-delay="1s" data-wow-duration="3s" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner end -->
+    <!-- aboutus start -->
+    <div class="container my-5">
+        <div class="row py-5">
+            <div class="col-lg-5">
+                <img class="aboutus-img wow slideInLeft" data-wow-delay="1s" data-wow-duration="3s"
+                    src="images/about-img.png" alt="">
+            </div>
+            <div class="col-lg-7">
+                <h4 class="subtitle-style mt-5">¿Qué hacemos?</h4>
+                <h1 class="title-style mb-5 mt-4">Unimos lo técnico con lo creativo</h1>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p class="p-style">
+                            En Holistic Digital Solutions, nos especializamos en el desarrollo web, diseño gráfico y
+                            clases.
+                            Nuestro enfoque único combina lo técnico y lo creativo para ofrecer soluciones digitales
+                            innovadoras.
+                            Trabajamos en estrecha colaboración con nuestros clientes para comprender sus
+                            necesidades y
+                            objetivos, y luego creamos sitios web atractivos y funcionales que reflejen su identidad
+                            de marca.
+                            Además, ofrecemos servicios de diseño gráfico de alta calidad para ayudar a transmitir
+                            el mensaje
+                            de nuestros clientes de manera efectiva. También brindamos clases y capacitaciones para
+                            aquellos
+                            que deseen aprender y mejorar sus habilidades en el ámbito digital. ¡Permítenos ayudarte
+                            a unir lo
+                            técnico con lo creativo y alcanzar tus metas en línea!
+                        </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <p class="p-style">En Holistic Digital Solutions, nos apasiona la innovación y la excelencia
+                            en
+                            cada proyecto que emprendemos. Nuestro equipo de expertos altamente capacitados y
+                            creativos
+                            trabaja arduamente para brindar soluciones digitales de vanguardia. Ya sea que necesites
+                            un
+                            sitio web personalizado, un diseño gráfico impactante o clases para mejorar tus
+                            habilidades,
+                            estamos aquí para ayudarte. Nos enorgullece unir lo técnico con lo creativo para ofrecer
+                            resultados excepcionales y satisfacer las necesidades únicas de cada cliente.
+                            ¡Contáctanos
+                            hoy mismo para comenzar tu viaje hacia el éxito digital!
+                        </p>
+                    </div>
+                </div>
+                <a class="link-style mt-5" href="">Más sobre nosotros</a>
+            </div>
+        </div>
+        <!-- aboutus end -->
+        <!-- service start -->
+        <div class="container my-5">
+            <div class="row py-5">
+                <div class="col-lg-6">
+                    <h4 class="subtitle-style mt-5"> Service </h4>
+                    <h1 class="title-style mb-5 mt-3"> Industry Standard Service </h1>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="service-card">
+                                <div class="service-icon my-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                        class="bi bi-stack" viewBox="0 0 16 16">
+                                        <path
+                                            d="m14.12 10.163 1.715.858c.22.11.22.424 0 .534L8.267 15.34a.598.598 0 0 1-.534 0L.165 11.555a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.66zM7.733.063a.598.598 0 0 1 .534 0l7.568 3.784a.3.3 0 0 1 0 .535L8.267 8.165a.598.598 0 0 1-.534 0L.165 4.382a.299.299 0 0 1 0-.535L7.733.063z" />
+                                        <path
+                                            d="m14.12 6.576 1.715.858c.22.11.22.424 0 .534l-7.568 3.784a.598.598 0 0 1-.534 0L.165 7.968a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.659z" />
+                                    </svg>
+                                </div>
+                                <h1 class="subtitle-style text-dark"> Web Solutions</h1>
+                                <p class="p-style">Dunt ut labore et dolore ma gna aliquaim ad minim</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="service-card">
+                                <div class="service-icon my-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                        class="bi bi-phone" viewBox="0 0 16 16">
+                                        <path
+                                            d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
+                                        <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                                    </svg>
+                                </div>
+                                <h1 class="subtitle-style text-dark"> Mobile Application</h1>
+                                <p class="p-style">Dunt ut labore et dolore ma gna aliquaim ad minim</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="service-card">
+                                <div class="service-icon my-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                        class="bi bi-stack" viewBox="0 0 16 16">
+                                        <path
+                                            d="m14.12 10.163 1.715.858c.22.11.22.424 0 .534L8.267 15.34a.598.598 0 0 1-.534 0L.165 11.555a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.66zM7.733.063a.598.598 0 0 1 .534 0l7.568 3.784a.3.3 0 0 1 0 .535L8.267 8.165a.598.598 0 0 1-.534 0L.165 4.382a.299.299 0 0 1 0-.535L7.733.063z" />
+                                        <path
+                                            d="m14.12 6.576 1.715.858c.22.11.22.424 0 .534l-7.568 3.784a.598.598 0 0 1-.534 0L.165 7.968a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.659z" />
+                                    </svg>
+                                </div>
+                                <h1 class="subtitle-style text-dark"> Web Solutions</h1>
+                                <p class="p-style">Dunt ut labore et dolore ma gna aliquaim ad minim</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="service-card">
+                                <div class="service-icon my-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                        class="bi bi-phone" viewBox="0 0 16 16">
+                                        <path
+                                            d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
+                                        <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                                    </svg>
+                                </div>
+                                <h1 class="subtitle-style text-dark"> Mobile Application</h1>
+                                <p class="p-style">Dunt ut labore et dolore ma gna aliquaim ad minim</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="service-image">
+                        <img class="service-img wow slideInRight" data-wow-delay="2s" data-wow-duration="3s"
+                            src="images/service-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- service end -->
+        <!-- why choose us start -->
+        <section class="full-width-seciton py-5">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img class="why-choose-img " src="images/feature-img.png" alt="">
+                    </div>
+                    <div class="col-lg-6 pt-5">
+                        <h4 class="subtitle-style mt-5"> Why Coose Us </h4>
+                        <h1 class="title-style mb-5 mt-3"> Never compromise with Quality </h1>
+                        <div class="row">
+                            <div class="col-lg-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#6c63ff"
+                                    class="bi bi-check2" viewBox="0 0 16 16">
+                                    <path
+                                        d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                                </svg>
+                            </div>
+                            <div class="col-lg-11">
+                                <p class="p-style"> Dunt ut labore et dolore ma gna aliquaim ad minim vul koreo
+                                    amare ki
+                                    mone pore na ami todiba.
+                                </p>
+                            </div>
+                            <div class="col-lg-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#6c63ff"
+                                    class="bi bi-check2" viewBox="0 0 16 16">
+                                    <path
+                                        d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                                </svg>
+                            </div>
+                            <div class="col-lg-11">
+                                <p class="p-style"> Dunt ut labore et dolore ma gna aliquaim ad minim vul koreo
+                                    amare ki
+                                    mone pore na ami todiba.
+                                </p>
+                            </div>
+                            <div class="col-lg-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#6c63ff"
+                                    class="bi bi-check2" viewBox="0 0 16 16">
+                                    <path
+                                        d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                                </svg>
+                            </div>
+                            <div class="col-lg-11">
+                                <p class="p-style"> Dunt ut labore et dolore ma gna aliquaim ad minim vul koreo
+                                    amare ki
+                                    mone pore na ami todiba.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- why choose us end -->
+        <!-- products start -->
+        <div class="container my-5">
+            <div class="row py-5 text-center">
+                <div class="col-lg-6 mx-auto">
+                    <h4 class="subtitle-style mt-5"> Our Product </h4>
+                    <h1 class="title-style mb-5 mt-3"> We Develope Amazing Products</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 my-4">
+                    <div class="mycard text-center p-5 shadow">
+                        <h1 class="subtitle-style text-dark"> Custom CMS </h1>
+                        <img class="my-5" src="images/product-icon1.png" alt="">
+                        <p class="p-style mb-4">Ovitae purus sodaDuis eu eros auctor augue ultricies bibend um.
+                            Phasellus
+                            semattis
+                        </p>
+                        <a href="" class="link-style mt-5">View Details</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 my-4">
+                    <div class="mycard text-center p-5 shadow">
+                        <h1 class="subtitle-style text-dark"> Custom CMS </h1>
+                        <img class="my-5" src="images/product-icon2.png" alt="">
+                        <p class="p-style mb-4">Ovitae purus sodaDuis eu eros auctor augue ultricies bibend um.
+                            Phasellus
+                            semattis
+                        </p>
+                        <a href="" class="link-style mt-5">View Details</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 my-4">
+                    <div class="mycard text-center p-5 shadow">
+                        <h1 class="subtitle-style text-dark"> Custom CMS </h1>
+                        <img class="my-5" src="images/product-icon3.png" alt="">
+                        <p class="p-style mb-4">Ovitae purus sodaDuis eu eros auctor augue ultricies bibend um.
+                            Phasellus
+                            semattis
+                        </p>
+                        <a href="" class="link-style mt-5">View Details</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 my-4">
+                    <div class="mycard text-center p-5 shadow">
+                        <h1 class="subtitle-style text-dark"> Custom CMS </h1>
+                        <img class="my-5" src="images/product-icon4.png" alt="">
+                        <p class="p-style mb-4">Ovitae purus sodaDuis eu eros auctor augue ultricies bibend um.
+                            Phasellus
+                            semattis
+                        </p>
+                        <a href="" class="link-style mt-5">View Details</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 my-4">
+                    <div class="mycard text-center p-5 shadow">
+                        <h1 class="subtitle-style text-dark"> Custom CMS </h1>
+                        <img class="my-5" src="images/product-icon5.png" alt="">
+                        <p class="p-style mb-4">Ovitae purus sodaDuis eu eros auctor augue ultricies bibend um.
+                            Phasellus
+                            semattis
+                        </p>
+                        <a href="" class="link-style mt-5">View Details</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 my-4">
+                    <div class="mycard text-center p-5 shadow">
+                        <h1 class="subtitle-style text-dark"> Custom CMS </h1>
+                        <img class="my-5" src="images/product-icon6.png" alt="">
+                        <p class="p-style mb-4">Ovitae purus sodaDuis eu eros auctor augue ultricies bibend um.
+                            Phasellus
+                            semattis
+                        </p>
+                        <a href="" class="link-style mt-5">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- products end -->
+        <!-- featues start  -->
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h4 class="subtitle-style mt-5"> Features </h4>
+                    <h1 class="title-style mb-5 mt-3"> Top Features that Keep Us Ahed</h1>
+                    <p class="p-style">Phasellus seiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                        enim ad
+                        minim veniam
+                    </p>
+                    <div class="row mt-5">
+                        <div class="col-lg-2">
+                            <div class="feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                    class="bi bi-lightbulb" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="col-lg-10">
+                            <h1 class="subtitle-style text-dark"> Developer Friendly Design</h1>
+                            <p class="p-style mb-4">Phasellus seiusmod tempor incididunt ut labore et dolore magna
+                                aliqu
+                                ad
+                                minim veniam
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-lg-2">
+                            <div class="feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                    class="bi bi-lightbulb" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="col-lg-10">
+                            <h1 class="subtitle-style text-dark"> Developer Friendly Design</h1>
+                            <p class="p-style mb-4">Phasellus seiusmod tempor incididunt ut labore et dolore magna
+                                aliqu
+                                ad
+                                minim veniam
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/feature2-img.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- features end  -->
+        <!-- blog start -->
+        <div class="container my-5">
+            <div class="row py-5 text-center">
+                <div class="col-lg-6 mx-auto">
+                    <h4 class="subtitle-style mt-5"> Latest News</h4>
+                    <h1 class="title-style mb-4 mt-3"> Form Our Blog</h1>
+                    <p class="p-style"> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip
+                        ex ea
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="shadow blog-card">
+                        <div class="overflow-hidden">
+                            <img class="w-100" src="images/blog-img1.jpg" alt="">
+                        </div>
+                        <div class="p-4">
+                            <p class="text-secondary mb-0"> February 04, 2020 </p>
+                            <a class="link-style blog-link"> Lets make the begging to mankind to save the world
+                                again
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="shadow blog-card">
+                        <div class="overflow-hidden">
+                            <img class="w-100" src="images/blog-img2.jpg" alt="">
+                        </div>
+                        <div class="p-4">
+                            <p class="text-secondary mb-0"> February 04, 2020 </p>
+                            <a class="link-style blog-link"> Lets make the begging to mankind to save the world
+                                again
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="shadow blog-card">
+                        <div class="overflow-hidden">
+                            <img class="w-100" src="images/blog-img3.jpg" alt="">
+                        </div>
+                        <div class="p-4">
+                            <p class="text-secondary mb-0"> February 04, 2020 </p>
+                            <a class="link-style blog-link"> Lets make the begging to mankind to save the world
+                                again
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- blog end -->
+        <!-- Contact Section Start -->
+        <section class="contact-section py-5">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-lg-12 text-center">
+                        <h4 class="subtitle-style">Get in Touch</h4>
+                        <h1 class="title-style mb-4">Contact Us</h1>
+                        <p class="p-style">Feel free to reach out to us for any inquiries or feedback.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Contact Form -->
+                    <div class="col-lg-6 container-fluid">
+                        <form id="firebasecontact">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Your Name" name="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Your Email" name="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" placeholder="Your Message" name="message" rows="5"
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="main-btn">Send Message</button>
+                        </form>
+                        <div class="contact-info">
+                            <p><i class="fa-solid fa-location-dot"></i> 123 Street, City, Country</p>
+                            <p><i class="fa-solid fa-envelope"></i> email@example.com</p>
+                            <p><i class="fa-solid fa-phone"></i> +123 456 7890</p>
+                            <div class="social-links">
+                                <a href="#" class="me-2"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" class="me-2"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#" class="me-2"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#" class="me-2"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section End -->
+        <a href="#" class="totop"
+            onclick="document.body.scrollTop=0;document.documentElement.scrollTop=0;event.preventDefault()"><i
+                class="fa-solid fa-angles-up"></i></a>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+            crossorigin="anonymous"></script>
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+</body>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-app.js";
+    import { getFirestore, doc, setDoc } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-firestore.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+        apiKey: "AIzaSyBNbkS3IWduMwuibtxF1bFsqqQcxl2fw18",
+        authDomain: "desarrollo-web-inndech.firebaseapp.com",
+        projectId: "desarrollo-web-inndech",
+        storageBucket: "desarrollo-web-inndech.appspot.com",
+        messagingSenderId: "743687848509",
+        appId: "1:743687848509:web:e0823cd7e92b9f33c56054",
+        measurementId: "G-DMRPV3MHV0"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+    const form = document.getElementById('firebasecontact');
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        setDoc(doc(db, "contacts", "contacts"), {
+            name: form.name.value,
+            email: form.email.value,
+            message: form.message.value
+        });
+        form.name.value = '';
+        form.email.value = '';
+        form.message.value = '';
+    })
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+
+</html>

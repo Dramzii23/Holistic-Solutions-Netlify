@@ -1,0 +1,54 @@
+@media only screen and (max-width: 599px) {
+  .flexContainer ul li span {
+    width: 100%;
+    display: block;
+    padding: 0.4em 0 0.2em 0;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1199px) {
+  .flexContainer {
+    display: flex;
+    flex-flow: wrap;
+  }
+  .flexContainer > div:last-child {
+    width: 57% !important;
+    padding: 1em;
+  }
+  .flexContainer > div:first-child {
+    width: 30%;
+    padding: 1em;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .flexContainer {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+  }
+  .flexContainer > div:first-child {
+    width: 30%;
+    padding: 1em;
+  }
+  .flexContainer > div:last-child {
+    width: 57% !important;
+    padding: 0em;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .flexContainer > div:last-child div {
+    width: 50%;
+    padding: 1em;
+  }
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
